@@ -89,6 +89,6 @@ class SendMailer:
     def send_by_date(self, sender, receiver, message, sdate):
         return None
 
-send_mailer = SendMailer('juliushirwa@yahoo.fr', '0788562619', 'juliushirwa@yahoo.fr', 'Get out man')
+send_mailer = SendMailer('yahoo email', 'yahoo password', 'receiver email', 'message')
 
-send_mailer.send('juliushirwa@yahoo.fr', '0788562619', 'juliushirwa@yahoo.fr', 'Get out man')
+send_mailer.send('sender email (yahoo)', 'sender password', 'yahoo-email', 'message')
